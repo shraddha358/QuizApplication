@@ -82,7 +82,6 @@ public class MainActivity extends AppCompatActivity {
             ansB.setBackgroundColor(Color.WHITE);
             ansC.setBackgroundColor(Color.WHITE);
             ansD.setBackgroundColor(Color.WHITE);
-
             Button clickedButton = (Button) view;
             if(clickedButton.getId()==R.id.submit_btn){
                 if(selectedAnswer.equals(QuestionAnswer.correctAnswers[currentQuestionIndex])){
